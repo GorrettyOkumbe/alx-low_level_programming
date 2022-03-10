@@ -2,7 +2,7 @@
 
 /**
  * main - prints the phrase "Programming is like building a multilligual puzzle
- * Retun: 0 if exited properly, non-zore otherwise
+ * Return: 0 if exited properly, non-zore otherwise
  */
 int main(void)
 {
