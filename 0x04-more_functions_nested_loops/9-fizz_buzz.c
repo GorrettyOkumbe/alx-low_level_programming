@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - prints the numbers from 1 to 100,
- * followed by a new line
- * Return: Always 0 (Success)
+ *main - replace multiples of 3 and 5.
+ *
+ *Return: 0.
  */
 int main(void)
 {
@@ -11,7 +10,7 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 &&  i % 5 == 0)
 		{
 			printf("%s", "FizzBuzz");
 		}
@@ -25,7 +24,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d", i);
 		}
 		if (i != 100)
 		{
